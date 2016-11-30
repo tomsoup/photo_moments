@@ -6,6 +6,8 @@ class User < ActiveRecord::Base
 
   #User would only pay once
   has_one :payment
+
+  has_many :images
   #User registration would also pass onto payment model
   accepts_nested_attributes_for :payment
 end
