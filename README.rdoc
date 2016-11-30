@@ -1,5 +1,9 @@
-Stripe Api
-S3 Bucket
-Carrivewave
-Devise Confirmable
+Carrivewave:
+  Fog
+  whitelist
+  S3 Bucket
+
+Devise:
+  Confirmable
+  Registration with Stripe Api
 SenderGrid
